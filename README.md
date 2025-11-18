@@ -65,8 +65,7 @@ comprar.php: Contiene el formulario. Los datos del vehículo y el precio se carg
 procesar_compra.php: Es el punto de destino del formulario. Este script toma los datos del usuario, realiza validaciones y ejecuta una transacción de inserción en la base de datos SQL para registrar la venta.
 compra_exitosa.php: Reemplaza el simple mensaje JS (success-message). Es una página independiente que se carga después de que procesar_compra.php confirma que la transacción ha sido exitosa y persistente.
 
-
-4. Gestión de Usuarios y Administración
+Gestión de Usuarios y Administración
 Se incluyó componentes esenciales de gestión de usuarios, lo que abre la puerta a funcionalidades personalizadas y un control administrativo.
 Autenticación y Cuentas de Usuario
 register.php: Permite a los nuevos usuarios crear una cuenta, almacenando sus credenciales y datos en la base de datos SQL.
@@ -76,7 +75,7 @@ La creación de una subcarpeta /admin y el archivo listado_compras.php confirman
 Acceso Restringido: El directorio /admin típicamente requiere que el usuario haya iniciado sesión y posea un rol específico (Administrador).
 listado_compras.php: Es una herramienta interna que consulta la Base de Datos SQL para listar, filtrar, y gestionar todas las ventas registradas a través de procesar_compra.php.
 
-5. Archivos Complementarios
+Archivos Complementarios
 Finalmente, se mantienen o añaden scripts de utilidad:
 Archivo
 Descripción
